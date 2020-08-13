@@ -13,7 +13,7 @@ function my_acf_init_block_types() {
             'description'       => __('A custom testimonial block.'),
             'render_template'   => 'template-parts/blocks/testimonial/referral.php',
             'category'          => 'formatting',
-            'icon'              => 'admin-comments',
+            'icon'              => 'starEmpty',
             'keywords'          => array( 'referral', 'link' ),
         ));
     }
